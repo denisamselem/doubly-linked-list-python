@@ -26,8 +26,8 @@ A complete implementation of a doubly linked list data structure in Python with 
 No external dependencies required. Just clone or download the repository:
 
 ```bash
-git clone <your-repo-url>
-cd double-linked-list-python
+git clone https://github.com/denisamselem/doubly-linked-list-python
+cd doubly-linked-list-python
 ```
 
 ## Usage

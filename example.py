@@ -23,10 +23,11 @@ def main():
     print(f"   Size: {len(dll)}")
     
     # Append elements
-    print("\n2. Appending elements: 10, 20, 30")
+    print("\n2. Appending elements: 10, 20, 30, 88")
     dll.append(10)
     dll.append(20)
     dll.append(30)
+    dll.append(88)
     print(f"   List: {dll}")
     print(f"   Size: {len(dll)}")
     
@@ -68,22 +69,28 @@ def main():
     deleted = dll.delete_first()
     print(f"   Deleted: {deleted}")
     print(f"   List: {dll}")
+    print(f"   Size: {len(dll)}")
+
     
     print("\n10. Deleting last element")
     deleted = dll.delete_last()
     print(f"   Deleted: {deleted}")
     print(f"   List: {dll}")
+    print(f"   Size: {len(dll)}")
     
     print("\n11. Deleting element at index 1")
     deleted = dll.delete_at(1)
     print(f"   Deleted: {deleted}")
     print(f"   List: {dll}")
-    
-    print("\n12. Deleting element by value (20)")
-    success = dll.delete_value(20)
+    print(f"   Size: {len(dll)}")
+
+
+    print("\n12. Deleting element by value (30)")
+    success = dll.delete_value(30)
     print(f"   Deleted successfully: {success}")
     print(f"   List: {dll}")
-    
+    print(f"   Size: {len(dll)}")
+
     # Reverse the list
     print("\n13. Reversing the list")
     dll.append(25)
