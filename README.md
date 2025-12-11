@@ -121,25 +121,7 @@ Main doubly linked list implementation.
 | `__len__()` | Get size of list | O(1) |
 | `__iter__()` | Make list iterable | O(1) per item |
 
-## Running Tests
 
-Run the complete test suite:
-
-```bash
-python -m unittest test_doubly_linked_list.py
-```
-
-Run specific test class:
-
-```bash
-python -m unittest test_doubly_linked_list.TestDoublyLinkedList
-```
-
-Run with verbose output:
-
-```bash
-python -m unittest test_doubly_linked_list.py -v
-```
 
 ## Implementation Details
 
